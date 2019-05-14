@@ -1,0 +1,183 @@
+
+/* Class = "UIButton"; normalTitle = "Clear Attachment"; ObjectID = "09h-c8-8be"; */
+"09h-c8-8be.normalTitle" = "Hapus Lampiran";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0BO-GW-KvR"; */
+"0BO-GW-KvR.normalTitle" = "Tombol";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3IG-tx-nDn"; */
+"3IG-tx-nDn.normalTitle" = "Tombol";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "432-R8-Umj"; */
+"432-R8-Umj.placeholder" = "Telepon";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "5Rf-Ct-bpq"; */
+"5Rf-Ct-bpq.text" = "Daftar";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "5V6-se-Wc6"; */
+"5V6-se-Wc6.text" = "Kategori";
+
+/* Class = "UIButton"; normalTitle = "Have an account? Sign in here"; ObjectID = "67h-bc-AoE"; */
+"67h-bc-AoE.normalTitle" = "Ada akun? Masuk disini";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "7nS-kM-2iQ"; */
+"7nS-kM-2iQ.placeholder" = "Katasandi Baru";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "8Qi-li-7eT"; */
+"8Qi-li-7eT.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9y9-id-bYw"; */
+"9y9-id-bYw.normalTitle" = "Tombol";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "ACT-Pi-MIy"; */
+"ACT-Pi-MIy.placeholder" = "Katasandi Lama";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "ASK-vC-L94"; */
+"ASK-vC-L94.placeholder" = "Nama";
+
+/* Class = "UILabel"; text = "Information"; ObjectID = "CMC-EM-D4o"; */
+"CMC-EM-D4o.text" = "Informasi";
+
+/* Class = "UIButton"; normalTitle = "Image"; ObjectID = "DEW-BE-2pL"; */
+"DEW-BE-2pL.normalTitle" = "Gambar";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "FRm-3P-d8o"; */
+"FRm-3P-d8o.placeholder" = "Katasandi";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "GBY-q4-TtC"; */
+"GBY-q4-TtC.normalTitle" = "DAFTAR";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "GHk-nf-aJW"; */
+"GHk-nf-aJW.title" = "Profil";
+
+/* Class = "UIButton"; normalTitle = "Video"; ObjectID = "GN1-rQ-P4r"; */
+"GN1-rQ-P4r.normalTitle" = "Video";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Gt0-AY-Yxb"; */
+"Gt0-AY-Yxb.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Notification"; ObjectID = "Hb1-Yc-wAV"; */
+"Hb1-Yc-wAV.text" = "Pemberitahuan";
+
+/* Class = "UILabel"; text = "Lapor"; ObjectID = "I7t-Dv-CMV"; */
+"I7t-Dv-CMV.text" = "Lapor";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "LVQ-3i-bjK"; */
+"LVQ-3i-bjK.text" = "Detail";
+
+/* Class = "UITextField"; placeholder = "Confirmation Password"; ObjectID = "M4o-ym-um7"; */
+"M4o-ym-um7.placeholder" = "Konfirmasi Katasandi";
+
+/* Class = "UIButton"; normalTitle = "Rank"; ObjectID = "MPg-Cg-oVJ"; */
+"MPg-Cg-oVJ.normalTitle" = "Ranking";
+
+/* Class = "UILabel"; text = "1234-5678"; ObjectID = "OP2-4d-2ZL"; */
+"OP2-4d-2ZL.text" = "1234-5678";
+
+/* Class = "UITextField"; placeholder = "New Password (Confirmation)"; ObjectID = "Pgu-OO-LvZ"; */
+"Pgu-OO-LvZ.placeholder" = "Katasandi Baru (Konfirmasi)";
+
+/* Class = "UILabel"; text = "email@email.email"; ObjectID = "QVS-KF-GF7"; */
+"QVS-KF-GF7.text" = "email@email.email";
+
+/* Class = "UILabel"; text = "Category Name"; ObjectID = "SMg-ED-w2t"; */
+"SMg-ED-w2t.text" = "Nama Kategori";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "T6d-Om-4Wb"; */
+"T6d-Om-4Wb.placeholder" = "Nama";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "VAX-7a-50A"; */
+"VAX-7a-50A.normalTitle" = "0";
+
+/* Class = "UILabel"; text = "Timeline"; ObjectID = "VaO-e0-1Wi"; */
+"VaO-e0-1Wi.text" = "Timeline";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y8e-rl-Knc"; */
+"Y8e-rl-Knc.normalTitle" = "Tombol";
+
+/* Class = "UILabel"; text = "Timeline"; ObjectID = "YyW-hp-8kK"; */
+"YyW-hp-8kK.text" = "Timeline";
+
+/* Class = "UIButton"; normalTitle = "Change Picture"; ObjectID = "ZXS-D9-aZa"; */
+"ZXS-D9-aZa.normalTitle" = "Ganti Gambar";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "aK6-RB-2Jc"; */
+"aK6-RB-2Jc.normalTitle" = "MASUK";
+
+/* Class = "UIButton"; normalTitle = "SIGN OUT"; ObjectID = "arK-tC-9tS"; */
+"arK-tC-9tS.normalTitle" = "KELUAR";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "bUA-g2-CGM"; */
+"bUA-g2-CGM.text" = "Nama";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "bfM-Ww-fhr"; */
+"bfM-Ww-fhr.placeholder" = "Email";
+
+/* Class = "UITabBarItem"; title = "Notification"; ObjectID = "c6N-iu-CWR"; */
+"c6N-iu-CWR.title" = "Pemberitahuan";
+
+/* Class = "UILabel"; text = "Login with Social Media"; ObjectID = "cJj-cP-ROx"; */
+"cJj-cP-ROx.text" = "Masuk dengan Media Sosial";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d3L-fR-Sfe"; */
+"d3L-fR-Sfe.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "dF2-Se-7J6"; */
+"dF2-Se-7J6.placeholder" = "Katasandi";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "fUn-Yc-ZLf"; */
+"fUn-Yc-ZLf.text" = "Lokasi";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "fdC-p7-GtD"; */
+"fdC-p7-GtD.normalTitle" = "Lupa Katasandi?";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "ffZ-AX-pdO"; */
+"ffZ-AX-pdO.text" = "Halaman Utama";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "gMt-pK-6wY"; */
+"gMt-pK-6wY.text" = "Profil";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hHk-bQ-bMd"; */
+"hHk-bQ-bMd.text" = "Judul";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "icW-KW-5uu"; */
+"icW-KW-5uu.text" = "Lokasi";
+
+/* Class = "UILabel"; text = "Lapor"; ObjectID = "kbb-fB-RUJ"; */
+"kbb-fB-RUJ.text" = "Lapor";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "lCv-7g-twp"; */
+"lCv-7g-twp.text" = "Nama";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "mIt-M6-ZZ5"; */
+"mIt-M6-ZZ5.text" = "Masuk";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "nK3-bS-z8I"; */
+"nK3-bS-z8I.placeholder" = "Telepon";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "pGh-dJ-URd"; */
+"pGh-dJ-URd.text" = "Komentar";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "q3G-oh-rjb"; */
+"q3G-oh-rjb.title" = "Halaman Utama";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rOY-Ww-NKF"; */
+"rOY-Ww-NKF.normalTitle" = "Tombol";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "uKN-AL-SIJ"; */
+"uKN-AL-SIJ.text" = "Ubah Profil";
+
+/* Class = "UIButton"; normalTitle = "Point"; ObjectID = "uaw-OO-4Fo"; */
+"uaw-OO-4Fo.normalTitle" = "Poin";
+
+/* Class = "UIButton"; normalTitle = "Don't have an account? Sign up here"; ObjectID = "voz-oU-JwY"; */
+"voz-oU-JwY.normalTitle" = "Tidak ada akun? Daftar disini";
+
+/* Class = "UILabel"; text = "Be the first to comment!"; ObjectID = "wHz-4R-YMq"; */
+"wHz-4R-YMq.text" = "Jadi yang pertama berkomentar!";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "xEG-Nl-fhC"; */
+"xEG-Nl-fhC.normalTitle" = "0";
+
+/* Class = "UILabel"; text = "Content"; ObjectID = "ykC-lb-CKX"; */
+"ykC-lb-CKX.text" = "Isi";

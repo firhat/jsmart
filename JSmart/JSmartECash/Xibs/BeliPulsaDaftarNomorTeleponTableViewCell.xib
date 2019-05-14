@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="O48-CF-2mt" customClass="BeliPulsaDaftarNomorTeleponTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O48-CF-2mt" id="6Lo-yH-ddc">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAn-FT-dZ9">
+                        <rect key="frame" x="20" y="0.0" width="295" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSj-Lz-uvv">
+                        <rect key="frame" x="20" y="0.0" width="295" height="43.5"/>
+                        <connections>
+                            <action selector="selectCell:" destination="O48-CF-2mt" eventType="touchUpInside" id="qRo-o9-FYN"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJB-th-HTS">
+                        <rect key="frame" x="325" y="0.0" width="30" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="hYD-N9-dmD"/>
+                        </constraints>
+                        <state key="normal" image="ico_heart_red"/>
+                        <connections>
+                            <action selector="tapButtonFavorite:" destination="O48-CF-2mt" eventType="touchUpInside" id="kXg-m1-ggI"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZSj-Lz-uvv" firstAttribute="leading" secondItem="6Lo-yH-ddc" secondAttribute="leading" constant="20" id="4hk-aK-5Un"/>
+                    <constraint firstItem="ZSj-Lz-uvv" firstAttribute="top" secondItem="6Lo-yH-ddc" secondAttribute="top" id="A0B-Mq-YPy"/>
+                    <constraint firstItem="BAn-FT-dZ9" firstAttribute="top" secondItem="6Lo-yH-ddc" secondAttribute="top" id="AIR-eG-SR2"/>
+                    <constraint firstItem="BAn-FT-dZ9" firstAttribute="leading" secondItem="6Lo-yH-ddc" secondAttribute="leading" constant="20" id="AYs-ME-een"/>
+                    <constraint firstItem="UJB-th-HTS" firstAttribute="leading" secondItem="BAn-FT-dZ9" secondAttribute="trailing" constant="10" id="DsW-YR-Pcx"/>
+                    <constraint firstItem="UJB-th-HTS" firstAttribute="leading" secondItem="ZSj-Lz-uvv" secondAttribute="trailing" constant="10" id="ES0-XJ-ErS"/>
+                    <constraint firstAttribute="bottom" secondItem="ZSj-Lz-uvv" secondAttribute="bottom" id="GK6-ON-9fZ"/>
+                    <constraint firstItem="UJB-th-HTS" firstAttribute="top" secondItem="6Lo-yH-ddc" secondAttribute="top" id="k7M-Vv-eOd"/>
+                    <constraint firstAttribute="bottom" secondItem="UJB-th-HTS" secondAttribute="bottom" id="m2U-6k-QUd"/>
+                    <constraint firstAttribute="trailing" secondItem="UJB-th-HTS" secondAttribute="trailing" constant="20" id="pBX-oq-t3e"/>
+                    <constraint firstAttribute="bottom" secondItem="BAn-FT-dZ9" secondAttribute="bottom" id="wN6-rT-d1K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buttonFavorite" destination="UJB-th-HTS" id="zIK-Ld-y7B"/>
+                <outlet property="containerNomorTelepon" destination="BAn-FT-dZ9" id="Y21-B2-nbz"/>
+            </connections>
+            <point key="canvasLocation" x="73.5" y="69"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ico_heart_red" width="16" height="15"/>
+    </resources>
+</document>

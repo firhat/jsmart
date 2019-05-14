@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteTableViewCell" rowHeight="177" id="Z5H-yA-qkz" customClass="FavoriteTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="177"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z5H-yA-qkz" id="9F8-8C-d40">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="176.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYB-WT-eyc">
+                        <rect key="frame" x="10" y="10" width="335" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="kaJ-WN-Zm4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEq-zy-hXE">
+                        <rect key="frame" x="10" y="40" width="225" height="126"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH8-CA-ThE">
+                        <rect key="frame" x="245" y="40" width="100" height="126"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="bCZ-ir-K1s"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grT-oZ-4ck">
+                        <rect key="frame" x="0.0" y="176" width="355" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="hun-DQ-02c"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWK-1W-yb0">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="177"/>
+                        <connections>
+                            <action selector="selectCell:" destination="Z5H-yA-qkz" eventType="touchUpInside" id="e1J-6d-sN6"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="grT-oZ-4ck" firstAttribute="top" secondItem="hEq-zy-hXE" secondAttribute="bottom" constant="10" id="3dX-ib-BAp"/>
+                    <constraint firstAttribute="bottom" secondItem="oWK-1W-yb0" secondAttribute="bottom" id="7CL-Ak-r5f"/>
+                    <constraint firstAttribute="trailing" secondItem="grT-oZ-4ck" secondAttribute="trailing" id="Eo6-M5-uXb"/>
+                    <constraint firstItem="GH8-CA-ThE" firstAttribute="leading" secondItem="hEq-zy-hXE" secondAttribute="trailing" constant="10" id="F7g-Va-FN7"/>
+                    <constraint firstItem="oWK-1W-yb0" firstAttribute="leading" secondItem="9F8-8C-d40" secondAttribute="leading" id="GSY-QI-YqZ"/>
+                    <constraint firstItem="RYB-WT-eyc" firstAttribute="top" secondItem="9F8-8C-d40" secondAttribute="top" constant="10" id="HAa-aN-66h"/>
+                    <constraint firstAttribute="bottom" secondItem="grT-oZ-4ck" secondAttribute="bottom" id="Hoy-ZK-IH0"/>
+                    <constraint firstAttribute="trailing" secondItem="GH8-CA-ThE" secondAttribute="trailing" constant="10" id="JnO-bN-fpR"/>
+                    <constraint firstItem="grT-oZ-4ck" firstAttribute="top" secondItem="GH8-CA-ThE" secondAttribute="bottom" constant="10" id="NJE-M5-ovo"/>
+                    <constraint firstItem="hEq-zy-hXE" firstAttribute="top" secondItem="RYB-WT-eyc" secondAttribute="bottom" constant="10" id="PpI-7T-cqS"/>
+                    <constraint firstItem="oWK-1W-yb0" firstAttribute="top" secondItem="9F8-8C-d40" secondAttribute="top" id="SLQ-4T-1BS"/>
+                    <constraint firstItem="grT-oZ-4ck" firstAttribute="leading" secondItem="9F8-8C-d40" secondAttribute="leading" id="T7B-cS-3Hn"/>
+                    <constraint firstItem="hEq-zy-hXE" firstAttribute="leading" secondItem="9F8-8C-d40" secondAttribute="leading" constant="10" id="f5O-ZI-ZCc"/>
+                    <constraint firstItem="GH8-CA-ThE" firstAttribute="top" secondItem="RYB-WT-eyc" secondAttribute="bottom" constant="10" id="irU-TS-jlf"/>
+                    <constraint firstItem="RYB-WT-eyc" firstAttribute="leading" secondItem="9F8-8C-d40" secondAttribute="leading" constant="10" id="pbs-8e-KZn"/>
+                    <constraint firstAttribute="trailing" secondItem="oWK-1W-yb0" secondAttribute="trailing" id="rul-Mt-7Dj"/>
+                    <constraint firstAttribute="trailing" secondItem="RYB-WT-eyc" secondAttribute="trailing" constant="10" id="zpD-tK-4G0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="containerDate" destination="RYB-WT-eyc" id="YwS-Am-5qP"/>
+                <outlet property="containerTitle" destination="hEq-zy-hXE" id="umS-fL-5J5"/>
+                <outlet property="containerType" destination="GH8-CA-ThE" id="4sA-yX-Qsy"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

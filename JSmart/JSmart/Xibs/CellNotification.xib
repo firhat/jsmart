@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="quicksand_bold.otf">
+            <string>QuicksandBold-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellNotification" rowHeight="65" id="b66-fz-O7D" customClass="CellNotificationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="308" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b66-fz-O7D" id="hTp-nE-IZQ">
+                <rect key="frame" x="0.0" y="0.0" width="308" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FjI-zH-ODx">
+                        <rect key="frame" x="10" y="10" width="49.5" height="49.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="FjI-zH-ODx" secondAttribute="height" multiplier="1:1" id="FGK-Bn-2Jf"/>
+                            <constraint firstAttribute="width" secondItem="FjI-zH-ODx" secondAttribute="height" multiplier="1:1" id="NQk-jI-NPh"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="05a-c3-gIH">
+                        <rect key="frame" x="69" y="10" width="199.5" height="49.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDI-x9-bfO">
+                                <rect key="frame" x="0.0" y="0.0" width="199.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="QdB-w5-yOr"/>
+                                    <constraint firstAttribute="height" constant="20" id="gXH-bk-h2V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="QuicksandBold-Regular" family="Quicksand" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToW-li-KzZ">
+                                <rect key="frame" x="0.0" y="20" width="199.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="RZQ-H3-e8S"/>
+                                    <constraint firstAttribute="height" constant="20" id="nTB-fh-4mi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ToW-li-KzZ" secondAttribute="trailing" id="5p7-un-cwY"/>
+                            <constraint firstItem="VDI-x9-bfO" firstAttribute="top" secondItem="05a-c3-gIH" secondAttribute="top" id="9Uj-zj-8sH"/>
+                            <constraint firstAttribute="trailing" secondItem="VDI-x9-bfO" secondAttribute="trailing" id="Ko1-Xo-dem"/>
+                            <constraint firstItem="ToW-li-KzZ" firstAttribute="top" secondItem="VDI-x9-bfO" secondAttribute="bottom" id="QOE-S2-MfP"/>
+                            <constraint firstItem="VDI-x9-bfO" firstAttribute="leading" secondItem="05a-c3-gIH" secondAttribute="leading" id="SDI-eH-BSB"/>
+                            <constraint firstItem="ToW-li-KzZ" firstAttribute="leading" secondItem="05a-c3-gIH" secondAttribute="leading" id="aj1-38-bfq"/>
+                            <constraint firstItem="ToW-li-KzZ" firstAttribute="top" secondItem="VDI-x9-bfO" secondAttribute="bottom" id="wpZ-By-Vch"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_bell_yellow" translatesAutoresizingMaskIntoConstraints="NO" id="woN-fm-kGB">
+                        <rect key="frame" x="278.5" y="25" width="19.5" height="19.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="woN-fm-kGB" secondAttribute="height" multiplier="1:1" id="1AG-1b-fna"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4le-CM-J4t">
+                        <rect key="frame" x="59.5" y="0.0" width="219" height="69.5"/>
+                        <connections>
+                            <action selector="selectCell:" destination="b66-fz-O7D" eventType="touchUpInside" id="ctS-Vt-ClB"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FjI-zH-ODx" firstAttribute="leading" secondItem="hTp-nE-IZQ" secondAttribute="leading" constant="10" id="0tf-Uw-E61"/>
+                    <constraint firstAttribute="bottom" secondItem="05a-c3-gIH" secondAttribute="bottom" constant="10" id="6eV-ec-L8G"/>
+                    <constraint firstItem="05a-c3-gIH" firstAttribute="top" secondItem="hTp-nE-IZQ" secondAttribute="top" constant="10" id="NDz-52-0oL"/>
+                    <constraint firstAttribute="bottom" secondItem="4le-CM-J4t" secondAttribute="bottom" id="Rui-bS-oPl"/>
+                    <constraint firstItem="FjI-zH-ODx" firstAttribute="top" secondItem="hTp-nE-IZQ" secondAttribute="top" constant="10" id="VAC-JL-Dso"/>
+                    <constraint firstAttribute="bottom" secondItem="woN-fm-kGB" secondAttribute="bottom" constant="25" id="Wad-Ic-5QE"/>
+                    <constraint firstItem="woN-fm-kGB" firstAttribute="top" secondItem="hTp-nE-IZQ" secondAttribute="top" constant="25" id="Wke-54-5fX"/>
+                    <constraint firstItem="woN-fm-kGB" firstAttribute="leading" secondItem="4le-CM-J4t" secondAttribute="trailing" id="Xro-M3-Rsk"/>
+                    <constraint firstItem="4le-CM-J4t" firstAttribute="top" secondItem="hTp-nE-IZQ" secondAttribute="top" id="cmF-sL-BTY"/>
+                    <constraint firstAttribute="bottom" secondItem="FjI-zH-ODx" secondAttribute="bottom" constant="10" id="hFx-M7-Gwi"/>
+                    <constraint firstAttribute="trailing" secondItem="woN-fm-kGB" secondAttribute="trailing" constant="10" id="jT9-BE-IDB"/>
+                    <constraint firstItem="woN-fm-kGB" firstAttribute="leading" secondItem="05a-c3-gIH" secondAttribute="trailing" constant="10" id="m7O-gd-HBx"/>
+                    <constraint firstItem="05a-c3-gIH" firstAttribute="leading" secondItem="FjI-zH-ODx" secondAttribute="trailing" constant="10" id="s1O-Vy-pxs"/>
+                    <constraint firstItem="4le-CM-J4t" firstAttribute="leading" secondItem="FjI-zH-ODx" secondAttribute="trailing" id="uXY-HW-oRd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="containerName" destination="VDI-x9-bfO" id="JxG-cT-nS1"/>
+                <outlet property="containerSenderPicture" destination="FjI-zH-ODx" id="Dfz-A5-IRQ"/>
+                <outlet property="containerTime" destination="ToW-li-KzZ" id="PhM-l0-bvB"/>
+                <outlet property="unreadSign" destination="woN-fm-kGB" id="Ozf-eD-RM3"/>
+            </connections>
+            <point key="canvasLocation" x="-57" y="21.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ico_bell_yellow" width="64" height="64"/>
+    </resources>
+</document>

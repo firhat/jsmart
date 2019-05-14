@@ -1,0 +1,28 @@
+//
+//  Strings.h
+//  JSmart
+//
+//  Created by whcl on 17/07/18.
+//  Copyright © 2018 Yesa. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface Strings : UIView
+
++ (NSString*) EN_ALERT_INCOMPLETE_FIELDS;
++ (NSString*) ID_ALERT_INCOMPLETE_FIELDS;
+
++ (NSString*) EN_ALERT_FAILED_TO_LOGIN_WITH_SOCIAL_MEDIA;
++ (NSString*) ID_ALERT_FAILED_TO_LOGIN_WITH_SOCIAL_MEDIA;
+
++ (NSString*) EN_ALERT_PASSWORD_DOES_NOT_MATCH;
++ (NSString*) ID_ALERT_PASSWORD_DOES_NOT_MATCH;
+
++ (NSString*) EN_ALERT_LOCATION_CANNOT_BE_DETERMINED;
++ (NSString*) ID_ALERT_LOCATION_CANNOT_BE_DETERMINED;
+
++ (NSString*) EN_ALERT_REPORT_SUBMITTED;
++ (NSString*) ID_ALERT_REPORT_SUBMITTED;
+
+@end

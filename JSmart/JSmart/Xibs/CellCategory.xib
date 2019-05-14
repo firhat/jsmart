@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellCategory" id="0j1-Hy-7Un" customClass="CellCategoryCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="221"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="221"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wep-id-8YC">
+                        <rect key="frame" x="15" y="15" width="130" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Wep-id-8YC" secondAttribute="height" multiplier="1:1" id="UI2-Wo-Htj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKm-fa-vll">
+                        <rect key="frame" x="5" y="155" width="150" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="qKm-fa-vll" firstAttribute="top" secondItem="Wep-id-8YC" secondAttribute="bottom" constant="10" id="9bR-fi-fnj"/>
+                <constraint firstItem="Wep-id-8YC" firstAttribute="leading" secondItem="0j1-Hy-7Un" secondAttribute="leading" constant="15" id="VgY-F3-gSl"/>
+                <constraint firstItem="qKm-fa-vll" firstAttribute="leading" secondItem="0j1-Hy-7Un" secondAttribute="leading" constant="5" id="aKr-cc-IuO"/>
+                <constraint firstItem="Wep-id-8YC" firstAttribute="top" secondItem="0j1-Hy-7Un" secondAttribute="top" constant="15" id="llX-RR-Dbq"/>
+                <constraint firstAttribute="trailing" secondItem="qKm-fa-vll" secondAttribute="trailing" constant="5" id="o4r-SO-CKO"/>
+                <constraint firstAttribute="trailing" secondItem="Wep-id-8YC" secondAttribute="trailing" constant="15" id="rwe-py-ua1"/>
+                <constraint firstItem="Wep-id-8YC" firstAttribute="centerX" secondItem="0j1-Hy-7Un" secondAttribute="centerX" id="tld-hW-69K"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Qoy-5U-kO9"/>
+            <size key="customSize" width="160" height="221"/>
+            <connections>
+                <outlet property="containerIcon" destination="Wep-id-8YC" id="R89-Pu-NUm"/>
+                <outlet property="containerName" destination="qKm-fa-vll" id="CCB-i4-cfB"/>
+            </connections>
+            <point key="canvasLocation" x="-5" y="65.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
