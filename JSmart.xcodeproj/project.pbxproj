@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3272A18B22B2532700FEBF53 /* SplashScreenViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272A18A22B2532700FEBF53 /* SplashScreenViewControler.swift */; };
 		60CF7B1B580BA1D845BFF18E /* libPods-JSmartUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0138AB580E4DAF2E39002DAB /* libPods-JSmartUITests.a */; };
 		7B0C6EA0215DC8110064DC22 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0C6E9F215DC8110064DC22 /* HistoryTableViewCell.xib */; };
 		7B0C6EA3215DC8360064DC22 /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0C6EA2215DC8360064DC22 /* HistoryTableViewCell.m */; };
@@ -156,6 +157,8 @@
 		0138AB580E4DAF2E39002DAB /* libPods-JSmartUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSmartUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BD39F920B0F70C833B4C11 /* Pods-JSmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSmartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSmartTests/Pods-JSmartTests.release.xcconfig"; sourceTree = "<group>"; };
 		0D4A81636B91E3833D96CFF3 /* Pods-JSmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSmart/Pods-JSmart.release.xcconfig"; sourceTree = "<group>"; };
+		3272A18922B2532600FEBF53 /* JSmart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSmart-Bridging-Header.h"; sourceTree = "<group>"; };
+		3272A18A22B2532700FEBF53 /* SplashScreenViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewControler.swift; sourceTree = "<group>"; };
 		41E24023ABAECBC23F9FC2CF /* Pods-JSmartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSmartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSmartUITests/Pods-JSmartUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B0C6E9F215DC8110064DC22 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		7B0C6EA1215DC8360064DC22 /* HistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
@@ -627,6 +630,8 @@
 				7BE462F720F43D850042383D /* InformationViewController.m */,
 				7B2AF76720FDB9770083E1C5 /* ChangeAvatarViewController.h */,
 				7B2AF76820FDB9770083E1C5 /* ChangeAvatarViewController.m */,
+				3272A18A22B2532700FEBF53 /* SplashScreenViewControler.swift */,
+				3272A18922B2532600FEBF53 /* JSmart-Bridging-Header.h */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -1003,6 +1008,7 @@
 				TargetAttributes = {
 					7B91A93220E3A10B00A819C1 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					7B91A94A20E3A10C00A819C1 = {
@@ -1024,6 +1030,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 7B91A92A20E3A10B00A819C1;
 			productRefGroup = 7B91A93420E3A10B00A819C1 /* Products */;
@@ -1265,6 +1272,7 @@
 				7B40EE792160B0CE00E288E2 /* BeliPulsaPinViewController.m in Sources */,
 				7BCC7BE0214F8F3F00C822BC /* TransferBankMandiriDaftarTableViewCell.m in Sources */,
 				7B40EE802160C53600E288E2 /* BayarListrikViewController.m in Sources */,
+				3272A18B22B2532700FEBF53 /* SplashScreenViewControler.swift in Sources */,
 				7B19F43720EC9DE40080BEA1 /* CellCommentTableViewCell.m in Sources */,
 				7B40EEA12160D1BF00E288E2 /* TarikTunaiAtmMandiriViewController.m in Sources */,
 				7BF8FE652147E0D3006B6C5D /* VisaDebitCardPINViewController.m in Sources */,
@@ -1509,6 +1517,7 @@
 			baseConfigurationReference = 830655A1451A0862C2510ACD /* Pods-JSmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RL4VK65D22;
@@ -1518,7 +1527,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.JSmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSmart/JSmart/View Controllers/JSmart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1527,6 +1539,7 @@
 			baseConfigurationReference = 0D4A81636B91E3833D96CFF3 /* Pods-JSmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RL4VK65D22;
@@ -1536,7 +1549,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.JSmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSmart/JSmart/View Controllers/JSmart-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1544,6 +1559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEF0C00B1697256FB75DCB4A /* Pods-JSmartTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHUU75QNA9;
@@ -1560,6 +1576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08BD39F920B0F70C833B4C11 /* Pods-JSmartTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHUU75QNA9;
@@ -1576,6 +1593,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41E24023ABAECBC23F9FC2CF /* Pods-JSmartUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHUU75QNA9;
 				INFOPLIST_FILE = JSmartUITests/Info.plist;
@@ -1591,6 +1609,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C6BF441AE2F4C2BD541AD9B /* Pods-JSmartUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHUU75QNA9;
 				INFOPLIST_FILE = JSmartUITests/Info.plist;

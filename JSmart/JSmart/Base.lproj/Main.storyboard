@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -64,7 +64,7 @@
                                                 <rect key="frame" x="20" y="150" width="335" height="60"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_email" translatesAutoresizingMaskIntoConstraints="NO" id="TES-xJ-mge">
-                                                        <rect key="frame" x="0.0" y="20" width="30" height="20"/>
+                                                        <rect key="frame" x="0.0" y="20" width="30.000000000000007" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="30" id="DZ2-YN-Fs6"/>
                                                             <constraint firstAttribute="height" constant="20" id="pGv-vH-ETq"/>
@@ -356,7 +356,7 @@
                                                 <rect key="frame" x="20" y="150" width="335" height="60"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_person_rounded" translatesAutoresizingMaskIntoConstraints="NO" id="us9-C9-oWc">
-                                                        <rect key="frame" x="0.0" y="20" width="30" height="20"/>
+                                                        <rect key="frame" x="0.0" y="20" width="30" height="20.000000000000028"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="aZ3-Oj-wkg"/>
                                                             <constraint firstAttribute="width" constant="30" id="hF0-nl-GwP"/>
@@ -393,7 +393,7 @@
                                                 <rect key="frame" x="20" y="210" width="335" height="60"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_email" translatesAutoresizingMaskIntoConstraints="NO" id="4Fi-eV-vX1">
-                                                        <rect key="frame" x="0.0" y="20" width="30" height="20"/>
+                                                        <rect key="frame" x="0.0" y="20" width="30.000000000000007" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="30" id="1gg-Dn-Fgn"/>
                                                             <constraint firstAttribute="height" constant="20" id="eVN-4x-fNo"/>
@@ -1055,7 +1055,7 @@
                                                 <rect key="frame" x="0.0" y="64" width="355" height="110"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_person_rounded_grey" translatesAutoresizingMaskIntoConstraints="NO" id="xcm-oc-4h5">
-                                                        <rect key="frame" x="142.5" y="0.0" width="70" height="70"/>
+                                                        <rect key="frame" x="142.5" y="0.0" width="70" height="70.000000000000028"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="70" id="f10-a4-7rm"/>
                                                             <constraint firstAttribute="height" constant="70" id="wkP-s8-urp"/>
@@ -1162,7 +1162,7 @@
                                                 <rect key="frame" x="0.0" y="43.5" width="355" height="33"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_email" translatesAutoresizingMaskIntoConstraints="NO" id="CPi-vq-tll">
-                                                        <rect key="frame" x="20" y="6.5" width="20" height="20"/>
+                                                        <rect key="frame" x="20" y="6.5" width="20.000000000000007" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="20" id="JtD-2X-hkf"/>
                                                             <constraint firstAttribute="height" constant="20" id="Qed-xd-w6T"/>
@@ -2206,7 +2206,7 @@
                                                         <rect key="frame" x="10" y="160" width="335" height="60"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_person_rounded" translatesAutoresizingMaskIntoConstraints="NO" id="1ah-fv-rbL">
-                                                                <rect key="frame" x="0.0" y="20" width="30" height="20"/>
+                                                                <rect key="frame" x="0.0" y="20" width="30" height="20.000000000000028"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="30" id="2Z4-Jp-ZY4"/>
                                                                     <constraint firstAttribute="height" constant="20" id="TZa-bG-g5b"/>
@@ -2243,7 +2243,7 @@
                                                         <rect key="frame" x="10" y="220" width="335" height="60"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_email" translatesAutoresizingMaskIntoConstraints="NO" id="HcO-GQ-5XF">
-                                                                <rect key="frame" x="0.0" y="20" width="30" height="20"/>
+                                                                <rect key="frame" x="0.0" y="20" width="30.000000000000007" height="20"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="30" id="WhD-tM-l1V"/>
                                                                     <constraint firstAttribute="height" constant="20" id="juk-SP-BqL"/>
@@ -2729,7 +2729,7 @@
                                         <rect key="frame" x="20" y="20" width="105" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9y9-id-bYw">
-                                                <rect key="frame" x="25" y="30" width="55" height="45"/>
+                                                <rect key="frame" x="25" y="20" width="55" height="65"/>
                                                 <state key="normal" title="Button" image="ico_file_brown"/>
                                                 <connections>
                                                     <action selector="lapor:" destination="tIw-WB-EVw" eventType="touchUpInside" id="2Bb-yj-jp9"/>
@@ -2745,9 +2745,9 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="9y9-id-bYw" secondAttribute="trailing" constant="25" id="2WX-Nd-hhC"/>
                                             <constraint firstAttribute="trailing" secondItem="I7t-Dv-CMV" secondAttribute="trailing" id="7yc-hg-IJe"/>
-                                            <constraint firstItem="9y9-id-bYw" firstAttribute="top" secondItem="QLk-ta-Gmy" secondAttribute="top" constant="30" id="Kpp-Mx-7FU"/>
+                                            <constraint firstItem="9y9-id-bYw" firstAttribute="top" secondItem="QLk-ta-Gmy" secondAttribute="top" constant="20" id="Kpp-Mx-7FU"/>
                                             <constraint firstAttribute="bottom" secondItem="I7t-Dv-CMV" secondAttribute="bottom" constant="10" id="Phc-n9-l34"/>
-                                            <constraint firstAttribute="bottom" secondItem="9y9-id-bYw" secondAttribute="bottom" constant="35" id="lLU-R8-YPn"/>
+                                            <constraint firstAttribute="bottom" secondItem="9y9-id-bYw" secondAttribute="bottom" constant="25" id="lLU-R8-YPn"/>
                                             <constraint firstItem="9y9-id-bYw" firstAttribute="leading" secondItem="QLk-ta-Gmy" secondAttribute="leading" constant="25" id="t9q-LF-C5w"/>
                                             <constraint firstItem="I7t-Dv-CMV" firstAttribute="leading" secondItem="QLk-ta-Gmy" secondAttribute="leading" id="uqU-li-hfE"/>
                                         </constraints>
@@ -2756,7 +2756,7 @@
                                         <rect key="frame" x="135" y="20" width="105" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8e-rl-Knc">
-                                                <rect key="frame" x="25" y="30" width="55" height="45"/>
+                                                <rect key="frame" x="25" y="20" width="55" height="55"/>
                                                 <state key="normal" title="Button" image="ico_location"/>
                                                 <connections>
                                                     <action selector="seeLocation:" destination="tIw-WB-EVw" eventType="touchUpInside" id="x7E-CT-tqe"/>
@@ -2776,7 +2776,7 @@
                                             <constraint firstAttribute="bottom" secondItem="Y8e-rl-Knc" secondAttribute="bottom" constant="35" id="a3a-51-R8y"/>
                                             <constraint firstAttribute="trailing" secondItem="fUn-Yc-ZLf" secondAttribute="trailing" id="bjG-4c-xZQ"/>
                                             <constraint firstItem="fUn-Yc-ZLf" firstAttribute="leading" secondItem="cvU-St-he0" secondAttribute="leading" id="h1k-dz-sgw"/>
-                                            <constraint firstItem="Y8e-rl-Knc" firstAttribute="top" secondItem="cvU-St-he0" secondAttribute="top" constant="30" id="iuU-TP-d7p"/>
+                                            <constraint firstItem="Y8e-rl-Knc" firstAttribute="top" secondItem="cvU-St-he0" secondAttribute="top" constant="20" id="iuU-TP-d7p"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sT9-na-Rd2" userLabel="Timeline">
@@ -2880,35 +2880,35 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ico_add" width="400.69564819335938" height="400.69564819335938"/>
-        <image name="ico_arrow_left" width="72" height="66"/>
-        <image name="ico_bell" width="48" height="50"/>
-        <image name="ico_camera" width="51.200000762939453" height="51.200000762939453"/>
-        <image name="ico_chat_yellow" width="46.311557769775391" height="46.311557769775391"/>
-        <image name="ico_email" width="49" height="37"/>
-        <image name="ico_facebook" width="126" height="126"/>
-        <image name="ico_file_brown" width="109.44000244140625" height="144.47999572753906"/>
-        <image name="ico_gear" width="63" height="64"/>
-        <image name="ico_google_plus" width="122" height="122"/>
-        <image name="ico_home" width="50" height="50"/>
-        <image name="ico_location" width="132.47999572753906" height="132.47999572753906"/>
-        <image name="ico_lock" width="47" height="57"/>
-        <image name="ico_medal" width="56" height="80"/>
-        <image name="ico_newspaper" width="132" height="119"/>
-        <image name="ico_person" width="40" height="50"/>
-        <image name="ico_person_rounded" width="207" height="206"/>
-        <image name="ico_person_rounded_grey" width="207" height="206"/>
-        <image name="ico_phone" width="47" height="56"/>
-        <image name="ico_star" width="36" height="34"/>
-        <image name="ico_tick_green" width="97" height="96"/>
-        <image name="ico_trash" width="400.69564819335938" height="400.69564819335938"/>
-        <image name="ico_video_take" width="51.200000762939453" height="51.200000762939453"/>
-        <image name="img_background" width="1081" height="1920"/>
-        <image name="img_logo_jsmart" width="43.680000305175781" height="34.080001831054688"/>
-        <image name="img_logo_jsmart_banner" width="170.8800048828125" height="48"/>
+        <image name="ico_add" width="64" height="64"/>
+        <image name="ico_arrow_left" width="36" height="33"/>
+        <image name="ico_bell" width="24" height="25"/>
+        <image name="ico_camera" width="32" height="32"/>
+        <image name="ico_chat_yellow" width="64" height="64"/>
+        <image name="ico_email" width="24.5" height="18.5"/>
+        <image name="ico_facebook" width="63" height="63"/>
+        <image name="ico_file_brown" width="114" height="150.5"/>
+        <image name="ico_gear" width="31.5" height="32"/>
+        <image name="ico_google_plus" width="61" height="61"/>
+        <image name="ico_home" width="25" height="25"/>
+        <image name="ico_location" width="138" height="138"/>
+        <image name="ico_lock" width="23.5" height="28.5"/>
+        <image name="ico_medal" width="28" height="40"/>
+        <image name="ico_newspaper" width="137.5" height="124"/>
+        <image name="ico_person" width="20" height="25"/>
+        <image name="ico_person_rounded" width="103.5" height="103"/>
+        <image name="ico_person_rounded_grey" width="103.5" height="103"/>
+        <image name="ico_phone" width="23.5" height="28"/>
+        <image name="ico_star" width="18" height="17"/>
+        <image name="ico_tick_green" width="48.5" height="48"/>
+        <image name="ico_trash" width="64" height="64"/>
+        <image name="ico_video_take" width="32" height="32"/>
+        <image name="img_background" width="540.5" height="960"/>
+        <image name="img_logo_jsmart" width="45.5" height="35.5"/>
+        <image name="img_logo_jsmart_banner" width="178" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dIa-yp-Voc"/>
-        <segue reference="ENj-XU-vzq"/>
+        <segue reference="aY7-e9-HyE"/>
+        <segue reference="F2u-WL-XBM"/>
     </inferredMetricsTieBreakers>
 </document>
