@@ -380,6 +380,8 @@
     self.kelurahan = placemark.thoroughfare;
     self.kecamatan = placemark.locality;
     self.kota = placemark.administrativeArea;
+    
+    self.addressContent.text = [NSString stringWithFormat: @"%@, %@, %@, %@", self.address, self.kota, self.kelurahan, self.kecamatan];
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {

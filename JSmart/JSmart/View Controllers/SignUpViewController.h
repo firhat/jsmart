@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *containerPassword;
 @property (weak, nonatomic) IBOutlet UITextField *containerConfirmationPassword;
 @property (weak, nonatomic) IBOutlet UITextField *containerPhone;
+@property (weak, nonatomic) IBOutlet UILabel *versionText;
 
 - (IBAction)signUp:(UIButton *)sender;
 - (IBAction)signIn:(UIButton *)sender;

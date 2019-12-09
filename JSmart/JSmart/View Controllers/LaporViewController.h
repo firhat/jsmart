@@ -39,7 +39,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *containerTitle;
 @property (weak, nonatomic) IBOutlet UITextView *containerContent;
 
-//@property (weak, nonatomic) IBOutlet UITextView *addressContent;
+@property (weak, nonatomic) IBOutlet UILabel *addressContent;
 
 @property (weak, nonatomic) IBOutlet UIImageView *containerAttachedImage;
 @property (weak, nonatomic) IBOutlet UIView *containerAttachedVideo;

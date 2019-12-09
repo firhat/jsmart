@@ -21,5 +21,6 @@
 - (IBAction)lapor:(UIButton *)sender;
 - (IBAction)seeLocation:(UIButton *)sender;
 - (IBAction)seeTimeline:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *verstionText;
 
 @end
