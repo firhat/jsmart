@@ -34,6 +34,7 @@
     [GIDSignIn sharedInstance].uiDelegate = self;
     [GIDSignIn sharedInstance].delegate = self;
     [self addKeyboardButton];
+    [self getAppVersion];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
@@ -45,6 +46,11 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)getAppVersion{
+   NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    self.versionText.text = [NSString stringWithFormat: @"Version %@", version];
 }
 
 #pragma Keyboard

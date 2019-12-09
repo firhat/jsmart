@@ -22,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *containerEmail;
 @property (weak, nonatomic) IBOutlet UITextField *containerPassword;
 @property (weak, nonatomic) IBOutlet UIButton *buttonSignIn;
+@property (weak, nonatomic) IBOutlet UILabel *versionText;
 
 
 - (IBAction)forgotPassword:(UIButton *)sender;

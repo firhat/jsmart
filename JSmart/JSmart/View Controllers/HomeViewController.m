@@ -17,10 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self getInformation];
+    [self getAppVersion];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)getAppVersion{
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    self.verstionText.text = [NSString stringWithFormat: @"Version %@", version];
 }
 
 #pragma Delegates

@@ -87,6 +87,15 @@
         point.subtitle = [post objectForKey:@"id_laporan"];
         [self.mapView addAnnotation:point];
     }
+    CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(-6.293441, 107.164162);
+    //[self.mapView setCenterCoordinate:(coordinate)];
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(coordinate, 8000, 8000);
+    MKCoordinateRegion adjustedRegion = [self.mapView regionThatFits:viewRegion];
+    [self.mapView setCenterCoordinate:(coordinate) animated:(YES)];
+    [self.mapView setRegion:adjustedRegion animated:YES];
+    self.mapView.showsUserLocation = YES;
+    [self.mapView setZoomEnabled:(YES)];
 }
 
 #pragma Connection
